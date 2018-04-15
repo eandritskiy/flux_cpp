@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "flux_cpp_console", "flux_cpp_console.vcxproj", "{70AB7911-ACA9-4E24-95F1-82C4D6E7039A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70AB7911-ACA9-4E24-95F1-82C4D6E7039A}.Debug|x64.ActiveCfg = Debug|x64
+		{70AB7911-ACA9-4E24-95F1-82C4D6E7039A}.Debug|x64.Build.0 = Debug|x64
+		{70AB7911-ACA9-4E24-95F1-82C4D6E7039A}.Debug|x86.ActiveCfg = Debug|Win32
+		{70AB7911-ACA9-4E24-95F1-82C4D6E7039A}.Debug|x86.Build.0 = Debug|Win32
+		{70AB7911-ACA9-4E24-95F1-82C4D6E7039A}.Release|x64.ActiveCfg = Release|x64
+		{70AB7911-ACA9-4E24-95F1-82C4D6E7039A}.Release|x64.Build.0 = Release|x64
+		{70AB7911-ACA9-4E24-95F1-82C4D6E7039A}.Release|x86.ActiveCfg = Release|Win32
+		{70AB7911-ACA9-4E24-95F1-82C4D6E7039A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2879C583-76EA-428E-AE9E-AA2ED0BE65FE}
+	EndGlobalSection
+EndGlobal

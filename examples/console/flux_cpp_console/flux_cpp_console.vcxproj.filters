@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="flux_cpp">
+      <UniqueIdentifier>{97ffef98-0a6d-4901-b5dc-e293568779f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flux_cpp\flux_cpp">
+      <UniqueIdentifier>{6c9f7324-85f7-4a7a-a123-cbddf1d7637f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{685686fb-af4e-43de-9e39-550df1c65764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{f75a7bf4-d5b1-4c83-bae0-07f7231108cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\store">
+      <UniqueIdentifier>{d1b00039-9e54-4d6e-add5-a60266bc5e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\middleware">
+      <UniqueIdentifier>{e1744542-9a5b-46b3-8448-86d37e87be42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\service">
+      <UniqueIdentifier>{f33ac24e-6ca7-43a4-9008-420f74f176f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware">
+      <UniqueIdentifier>{5812f236-32b9-4bbd-a67c-7d251eee8ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\store">
+      <UniqueIdentifier>{d79c5b04-809b-4658-95c7-86c9076fcf00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\service">
+      <UniqueIdentifier>{1830f79f-d823-4675-8bb2-3980d5b5eb15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\action">
+      <UniqueIdentifier>{9fdb92a6-69b8-42b9-b11e-53389fdeea48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\flux_cpp.h">
+      <Filter>flux_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\flux_cpp\action.h">
+      <Filter>flux_cpp\flux_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\flux_cpp\dispatcher.h">
+      <Filter>flux_cpp\flux_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\flux_cpp\middleware.h">
+      <Filter>flux_cpp\flux_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\flux_cpp\store.h">
+      <Filter>flux_cpp\flux_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\action\action_types.h">
+      <Filter>include\action</Filter>
+    </ClInclude>
+    <ClInclude Include="include\middleware\ftp_middleware.h">
+      <Filter>include\middleware</Filter>
+    </ClInclude>
+    <ClInclude Include="include\service\ftp_service.h">
+      <Filter>include\service</Filter>
+    </ClInclude>
+    <ClInclude Include="include\store\main_store.h">
+      <Filter>include\store</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\ftp_middleware.cpp">
+      <Filter>src\middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="src\service\ftp_service.cpp">
+      <Filter>src\service</Filter>
+    </ClCompile>
+    <ClCompile Include="src\store\main_store.cpp">
+      <Filter>src\store</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
